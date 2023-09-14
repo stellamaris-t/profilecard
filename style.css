@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+ *{
+    margin: 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+ }
+ 
+ body{
+    background: hsl(185, 75%, 39%);
+    background-image: url(./assets/bg-pattern-top.svg),url(./assets/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -25vw -65vh, 50vw 55vh ;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+
+ .card{
+    width: 320px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+ .cardtop{
+    background-image: url(./assets/bg-pattern-card.svg);
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+ }
+
+ .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 2px solid white;
+ }
+
+ .actions{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-top: 0.5px solid rgb(238, 234, 234);
+    justify-content: space-around;
+    padding-top: 20px;
+ }
+
+ .cardbody{
+    margin-top: 80px;
+
+ }
+
+ .gray{
+    color: hsl(0, 0%, 59%);
+ }
+ .actions p{
+    font-size: 12px;
+ }
